@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #333b40;
+}
+button, input {
+    outline: 0 !important;
+}
+#header {
+    height: 5rem;
+    background: #333233;
+}
+.header-container {
+}
+.header-container:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-content {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-nav-container {
+    color: #FFF;
+}
+
+.user a {
+    color: #cc472c;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu-list {
+    padding-left: 1.143rem;
+}
+.exit:before {
+    content: '';
+    height: 1.143rem;
+    border-left: 1px solid #555759;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1.429rem;
+}
+#main-container {
+    background-color: #f4f4f4;
+}
+.navigation {
+    height: 4rem;
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#e5e5e5));
+    background: -webkit-linear-gradient(top, #ffffff, #e5e5e5);
+    background: -moz-linear-gradient(top, #ffffff, #e5e5e5);
+    background: -o-linear-gradient(top, #ffffff, #e5e5e5);
+    background: -ms-linear-gradient(top, #ffffff, #e5e5e5);
+    background: linear-gradient(top, #ffffff, #e5e5e5);
+    background-color: #ffffff;
+
+    -webkit-box-shadow: inset 0px -2px 0px #cccccc;
+    -moz-box-shadow: inset 0px -2px 0px #cccccc;
+    box-shadow: inset 0px -2px 0px #cccccc;
+
+    overflow: hidden;
+}
+
+.navigation .nav>li>a:focus, .navigation .nav>li>a:hover {
+    background-color: transparent;
+}
+.navigation .navbar-nav>li>a {
+    padding-top: 1.286rem;
+    padding-bottom: 1.214rem;
+    text-transform: uppercase;
+
+    color: #333b40;
+}
+.hl-link {
+    display: inline-block;
+    margin: 1.214rem;
+    margin-left: 0;
+}
+
+.home-logo:after {
+    content: '';
+    height: 1.143rem;
+    border-right: 1px solid #555759;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-right: 20px;*/
+}
+
+.navigation .navbar-nav>li.active {
+    -webkit-box-shadow: inset 0px -2px 0px #cc462c;
+    -moz-box-shadow: inset 0px -2px 0px #cc462c;
+    box-shadow: inset 0px -2px 0px #cc462c;
+}
+
+.content {
+    overflow: auto;
+}
+
+.left-sidebar {
+    padding: 1rem 0;
+    border-right: 1px solid #c4c9cc;
+    box-sizing: border-box;
+}
+.title-block, .search-block {
+    padding-left: 1rem;
+}
+.category-block .list-group-item:first-child, .category-block .list-group-item:last-child {
+    border-radius: 0;
+}
+.category-block .list-group-item {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+}
+.category-block .list-group-item a {
+    display: block;
+    padding: 1rem;
+    padding-left: 4rem;
+    text-decoration: none;
+    color: #333b40;
+}
+
+.category-block .list-group-item.active-item {
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.category-block .list-group-item.active-item a {
+    background-color: #fff;
+}
+
+.cb-button {
+    position: absolute;
+    top: 0.7143rem;
+    left: 1rem;
+    background-color: #fff;
+}
+.button {
+    border: 1px solid #a6a4a6;
+
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+
+    background-color: #fff;
+
+    outline: none;
+}
+.button-circle {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    line-height: 0;
+}
+.button-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+.button-title {
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.search-block {
+    margin-bottom: 1rem;
+}
+
+.custom-search-input {
+    margin:0;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.custom-search-input .input-group .form-control:first-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.custom-search-input .input-group .glyphicon-search {
+    color: rgba(51, 50, 51, 0.51);
+}
+
+
+.custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -2rem;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#363a40;
+}
+.custom-search-input .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.page-top .search-block{
+    max-width: 20.14rem;
+    box-sizing: content-box;
+}
+
+.main-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-navigation {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+    -webkit-box-shadow: 0px 1px 1px #d3d8db;
+    -moz-box-shadow: 0px 1px 1px #d3d8db;
+    box-shadow: 0px 1px 1px #d3d8db;
+}
+.content-navigation ul>li>a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-navigation ul>li:after {
+    content: '';
+    height: 1.143rem;
+    border-right: 1px solid #cccccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-navigation ul>li:last-child:after {
+    height: 0;
+}
+.content-navigation ul>li>a {
+    background-color: transparent;
+    color: rgba(51, 59, 64, 0.67);
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.content-navigation ul>li>a:active, .content-navigation ul>li>a.active, .content-navigation ul>li>a:hover {
+    background-color: transparent;
+}
+
+.content-navigation ul>li>a:active, .content-navigation ul>li>a.active-cn-item {
+    color: #292f33;
+
+    -webkit-box-shadow: inset 0px -2px 0px #cc462c;
+    -moz-box-shadow: inset 0px -2px 0px #cc462c;
+    box-shadow: inset 0px -2px 0px #cc462c;
+}
+.page-top {
+    overflow: hidden;
+
+    -webkit-box-shadow: inset 0px -2px 0px #bbbdbf;
+    -moz-box-shadow: inset 0px -2px 0px #bbbdbf;
+    box-shadow: inset 0px -2px 0px #bbbdbf;
+}
+.page-top .custom-search-input {
+    margin-top: 0;
+}
+.add-site-block {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.generate-site-block {
+    padding-left: 1rem;
+}
+
+.generate-site-block .button-title {
+    font-size: 0.8571rem;
+}
+.table-block .checkbox {
+    margin: 0;
+}
+.table-block .checkbox label {
+    padding-top: 4px;
+}
+.table-block .checkbox input {
+    background-color: #fff;
+    border-color: #adadad;
+    width: 1.143rem;
+    height: 1.143rem;
+}
+
+.l-inline-list {
+    margin: 0 0 -1.714rem -1.714rem;
+    cursor: default;
+}
+.l-list-inline__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1.714rem;
+    margin-left: 1.714rem;
+}
+
+.clearfix {
+    overflow: hidden;
+}
